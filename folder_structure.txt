@@ -1,0 +1,5 @@
+audiobook-translator/
+├── app.py                 # Your Streamlit app code
+├── requirements.txt       # Dependencies
+├── README.md             # Project description
+└── .gitignore           # Files to ignore
