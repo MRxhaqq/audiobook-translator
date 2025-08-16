@@ -18,7 +18,7 @@ st.set_page_config(
 
 # Title and description
 st.title("🎧 Language Audiobook Translator")
-st.markdown("Convert audiobooks from one language to another using AI-powered speech recognition and translation.")
+st.markdown("Convert audiobooks from one language to another using speech recognition and translation.")
 
 
 # Initialize components with better error handling
@@ -478,7 +478,7 @@ with st.sidebar:
     - Ensure audio is loud enough
     """)
 
-    st.header("🔧 Requirements")
+    st.header("Requirements")
     st.code("""
 # Install required packages:
 pip install streamlit
@@ -501,4 +501,5 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True
+
 )
